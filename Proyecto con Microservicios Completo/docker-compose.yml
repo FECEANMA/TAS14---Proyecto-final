@@ -1,0 +1,36 @@
+version: '3.8'
+services:
+  consul:
+    image: consul
+    ports:
+      - "8500:8500"
+
+  auth-service:
+    build: ./auth-service
+    environment:
+      - PORT=4001
+      - JWT_SECRET=1234
+      - DB_HOST=host.docker.internal
+    depends_on:
+      - consul
+
+  energy-service:
+    build: ./energy-service
+    environment:
+      - PORT=4002
+    depends_on:
+      - consul
+
+  api-gateway:
+    build: ./api-gateway
+    ports:
+      - "4000:4000"
+    depends_on:
+      - consul
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - api-gateway
