@@ -1,4 +1,4 @@
-# 🧠 Diagrama de Arquitectura del Sistema "SmartView Energy"
+# Diagrama de Arquitectura del Sistema "SmartView Energy"
 
 <img src="./DiagramaArqitecturaProyectoFinal2.png" width="600">
 
@@ -45,7 +45,7 @@ El ESP32 se conecta por Wi-Fi al servidor backend enviando datos eléctricos.
 
 <img src="DiagramaArqitecturaProyectoFinal.png" width="600">
 
-## 🔄 Flujo de Datos
+## Flujo de Datos
 1. Los dispositivos conectados a la regleta consumen energía.  
 2. El ESP32 mide corriente y voltaje, y detecta sobrecargas.  
 3. Envía datos al backend NestJS por HTTP (o MQTT si se desea escalar).  
