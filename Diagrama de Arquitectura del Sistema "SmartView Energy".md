@@ -1,6 +1,6 @@
 # 🧠 Diagrama de Arquitectura del Sistema "SmartView Energy"
 
-<img src="./DiagramaArqitecturaProyectoFinal2.png" width="800">
+<img src="./DiagramaArqitecturaProyectoFinal2.png" width="600">
 
 ## 1. Capa de Dispositivos Físicos (IoT)
 ### Regleta Inteligente (Supresor de Picos)
@@ -43,7 +43,7 @@ El ESP32 se conecta por Wi-Fi al servidor backend enviando datos eléctricos.
 
 ---
 
-<img src="DiagramaArqitecturaProyectoFinal.png" width="800">
+<img src="DiagramaArqitecturaProyectoFinal.png" width="600">
 
 ## 🔄 Flujo de Datos
 1. Los dispositivos conectados a la regleta consumen energía.  
