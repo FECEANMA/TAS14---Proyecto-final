@@ -1,3 +1,4 @@
+<img src="./DiagramaArqitecturaProyectoFinal2.png" width="200">
 
 # 🧠 Diagrama de Arquitectura del Sistema "SmartView Energy"
 
@@ -41,6 +42,8 @@ El ESP32 se conecta por Wi-Fi al servidor backend enviando datos eléctricos.
 - **Notificaciones Push** cuando se detecta una sobrecarga.
 
 ---
+
+<img src="DiagramaArqitecturaProyectoFinal.png" width="200">
 
 ## 🔄 Flujo de Datos
 1. Los dispositivos conectados a la regleta consumen energía.  
