@@ -1,6 +1,6 @@
-<img src="./DiagramaArqitecturaProyectoFinal2.png" width="800">
-
 # 🧠 Diagrama de Arquitectura del Sistema "SmartView Energy"
+
+<img src="./DiagramaArqitecturaProyectoFinal2.png" width="800">
 
 ## 1. Capa de Dispositivos Físicos (IoT)
 ### Regleta Inteligente (Supresor de Picos)
